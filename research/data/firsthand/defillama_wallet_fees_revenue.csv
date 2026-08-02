@@ -1,5 +1,5 @@
 metric,protocol,category,slug,usd_24h,usd_7d,usd_30d,usd_1y,usd_all_time,chains
-fees,MetaMask Wallet,Wallets,metamask-wallet,54798,413415,1585583,41677762,192886629,BSC;Ethereum;Polygon;Arbitrum;Linea;OP Mainnet;Base;Hyperliquid L1;Avalanche;Monad;Solana
+fees,MetaMask Wallet,Wallets,metamask-wallet,61237,413415,1585583,41677762,192893068,BSC;Ethereum;Polygon;Arbitrum;Linea;OP Mainnet;Base;Hyperliquid L1;Avalanche;Monad;Solana
 fees,Rainbow Wallet,Wallets,rainbow-wallet,1614,9051,30245,1416330,8339868,BSC;OP Mainnet;Ethereum;Arbitrum;Berachain;Polygon;Avalanche;Base;Blast;Ink;ApeChain;Zora;Gravity by Galxe;Unichain;Monad;Degen;Sonic;Celo;Katana;World Chain;Scroll;Plasma;Linea;Hyperliquid L1;Mantle;Ronin;BOB;Plume Mainnet;MegaETH;B3
 fees,Coinbase Wrapped Staked ETH,Liquid Staking,coinbase-wrapped-staked-eth,59146,432710,1805599,36478896,57538925,Ethereum
 fees,Zerion Wallet,Wallets,zerion-wallet,0,0,0,434397,3425903,BSC;OP Mainnet;Ethereum;Polygon;Arbitrum;Base;Monad
@@ -7,11 +7,11 @@ fees,Coinbase Commerce,Payments,coinbase-commerce,0,0,0,727866,2659742,Ethereum;
 fees,OKX Swap,DEX Aggregator,okx-swap,0,0,0,10856495,10856495,Mantle;Blast;Sonic;Unichain;Metis;ZKsync Era;Avalanche;Linea;OP Mainnet;Arbitrum;Plasma;Polygon;Ethereum;Base;BSC
 fees,Bitget SOL,Liquid Staking,bitget-sol,0,9595,56280,1075831,1738964,Solana
 fees,Phantom Wallet,Wallets,phantom-wallet,138044,1055286,5677506,117387391,552416490,Solana;Ethereum;Base;Polygon;Monad
-fees,Trust Wallet Wallet,Wallets,trust-wallet-wallet,1744,36172,200267,4386489,34645580,Ethereum;OP Mainnet;Arbitrum;Base;Polygon;Avalanche;BSC
-fees,Base App,Wallets,base-app,5445,88846,466676,21258758,125594246,OP Mainnet;Avalanche;Arbitrum;Polygon;BSC;Base;Ethereum
+fees,Trust Wallet Wallet,Wallets,trust-wallet-wallet,1818,36172,200267,4386489,34645654,Ethereum;OP Mainnet;Arbitrum;Base;Polygon;Avalanche;BSC
+fees,Base App,Wallets,base-app,5427,88846,466676,21258758,125594228,OP Mainnet;Avalanche;Arbitrum;Polygon;BSC;Base;Ethereum
 fees,Rabby Wallet,Wallets,rabby-wallet,2889,26542,94555,3966844,12960289,Ethereum;BSC;Base;Arbitrum;Gnosis;Berachain;Sonic;Abstract;Blast;Scroll;Unichain;Manta;Polygon;OP Mainnet;Mantle;Avalanche;Polygon zkEVM;ZKsync Era;Arbitrum Nova;Linea;Monad
 fees,Coinbase Bridge,Bridge,coinbase-bridge,0,0,0,0,0,Ethereum;Arbitrum;Base;Solana
-fees,Holdstation Wallet Miniapp,DEX Aggregator,holdstation-wallet-miniapp,16.08,262.19,1222.8200000000004,46748.82,55792.9,World Chain
+fees,Holdstation Wallet Miniapp,DEX Aggregator,holdstation-wallet-miniapp,15.66,262.19,1222.8200000000004,46748.82,55792.48,World Chain
 fees,Phantom SOL,Liquid Staking,phantom-sol,754,104189,497149,7284818,7737409,Solana
 fees,Phantom Perps,Interface,phantom-perps,14352,203641,1018377,22204741,23590774,Hyperliquid L1
 fees,Okto Wallet Perps,Interface,okto-wallet-perps,0.82,30.990000000000002,259.99,175040.99,884772.99,Hyperliquid L1
@@ -26,10 +26,10 @@ fees,Gem Wallet Perps,Interface,gem-wallet-perps,3.59,10.86,310.09000000000003,6
 fees,Splash Wallet Perps,Interface,splash-wallet-perps,62,2735.92,4563.82,156850.82,158512.82,Hyperliquid L1
 fees,Rainbow Predictions,Interface,rainbow-predictions,133,971.37,4125.37,72946.37,73079.37,Polygon
 fees,THORWallet,DEX Aggregator,thorwallet,150,3422,13385,139494,139644,Thorchain
-fees,Rainbow Token Launchpad,Launchpad,rainbow-token-launchpad,7.2,152.04999999999998,2097.24,48897.240000000005,48904.44,Base
+fees,Rainbow Token Launchpad,Launchpad,rainbow-token-launchpad,4.13,152.04999999999998,2097.24,48897.240000000005,48901.37,Base
 fees,Telegram Wallet,Interface,telegram-wallet,3929,79367,693097,3129884,3129884,zkLighter
 fees,Trust Wallet Perps,Interface,trust-wallet-perps,7036,157712,165589,182718,182718,Hyperliquid L1
-fees,MetaMask Predictions,Interface,metamask-predictions,3293,21242,236717,236717,240010,Polygon
+fees,MetaMask Predictions,Interface,metamask-predictions,3278,21242,236717,236717,239995,Polygon
 fees,Cwallet Perps,Interface,cwallet-perps,0.69,13.129999999999999,93.33,12672.330000000004,12672.330000000004,Hyperliquid L1
 fees,Blockchain Wallet Perps,Interface,blockchain-wallet-perps,162,5048,69714,119128,119128,Hyperliquid L1
 fees,DashsWallet,Portfolio Tracker,dashswallet,0,0,55,55,55,OP Mainnet;Base;Arbitrum;Ethereum;Avalanche;Polygon

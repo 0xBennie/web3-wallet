@@ -1,0 +1,4 @@
+protocol,slug,category,vol_24h,vol_7d,vol_30d,vol_1y,vol_all_time,chains
+Bitget Wallet X,bitget-wallet-x,DEX Aggregator,42511120,264016635,1256774714,6200377891,14332073970,BSC;Ethereum;Polygon;Fantom;Heco;Arbitrum;OP Mainnet;Tron;Solana;TON;Bitcoin;Aptos;Avalanche;Base;Blast;Celo;CORE;Kaia;Linea;Manta;Mantle;Morph;Near;opBNB;Sui;Zkfair;ZKsync Lite;Plasma;X Layer;Monad;Berachain;Hyperliquid L1;Sonic;Sei;Scroll;Cronos
+OKX Swap,okx-swap,DEX Aggregator,180246527,1456007273,6394503318,102376270828,193373694590,Ethereum;BSC;OKTChain;Polygon;Tron;Avalanche;Fantom;Arbitrum;OP Mainnet;Cronos;Solana;Osmosis;Aptos;ZKsync Era;Conflux;Sui;Polygon zkEVM;Sei;Linea;Mantle;Base;Stacks;Starknet;Scroll;X Layer;Manta;Metis;ZetaChain;Merlin;Blast;Mode;TON;Sonic;Unichain;Plasma
+Binance Wallet,binance-wallet,Wallets,633882861,5930260351,11307963178,63678528747,106817365779,Ethereum;Arbitrum;Polygon;BSC;Avalanche;OP Mainnet;Base;Linea;Sonic;ZKsync Era;Solana;Plasma

@@ -99,6 +99,52 @@ def fetch_defillama():
               ["protocol", "month", "fees_usd"])
 
 
+# ------------------------------------------- Exchange wallets (volume-first)
+# Binance Wallet / OKX Swap / Bitget Wallet X have no (or near-zero) fee
+# adapters on DefiLlama, but their swap VOLUME is tracked first-hand via the
+# aggregators endpoint. Revenue must be estimated as volume x fee rate, or
+# attributed on-chain via their fee-collector addresses.
+EXCHANGE_WALLET_SLUGS = ["binance-wallet", "okx-swap", "bitget-wallet-x"]
+
+
+def fetch_exchange_wallet_volumes():
+    d = get("https://api.llama.fi/overview/aggregators?excludeTotalDataChart=true"
+            "&excludeTotalDataChartBreakdown=true")
+    rows = []
+    for p in (d or {}).get("protocols", []):
+        if p.get("slug") in EXCHANGE_WALLET_SLUGS:
+            rows.append([p.get("name"), p.get("slug"), p.get("category"),
+                         p.get("total24h"), p.get("total7d"), p.get("total30d"),
+                         p.get("total1y"), p.get("totalAllTime"),
+                         ";".join(p.get("chains") or [])])
+    write_csv("defillama_exchange_wallet_volume.csv", rows,
+              ["protocol", "slug", "category", "vol_24h", "vol_7d", "vol_30d",
+               "vol_1y", "vol_all_time", "chains"])
+
+    monthly = {}
+    for slug in EXCHANGE_WALLET_SLUGS:
+        d = get(f"https://api.llama.fi/summary/aggregators/{slug}?dataType=dailyVolume")
+        if not d or not d.get("totalDataChart"):
+            print(f"  no daily volume for {slug}")
+            continue
+        name = d.get("name", slug)
+        for ts, usd in d["totalDataChart"]:
+            month = dt.datetime.fromtimestamp(int(ts), dt.timezone.utc).strftime("%Y-%m")
+            monthly[(name, month)] = monthly.get((name, month), 0) + (usd or 0)
+        time.sleep(0.5)
+    # OKX Swap is the only one of the three with a fee adapter (historically
+    # non-zero, currently ~0 -> they run a zero-fee strategy).
+    d = get("https://api.llama.fi/summary/fees/okx-swap?dataType=dailyFees")
+    if d and d.get("totalDataChart"):
+        for ts, usd in d["totalDataChart"]:
+            month = dt.datetime.fromtimestamp(int(ts), dt.timezone.utc).strftime("%Y-%m")
+            key = ("OKX Swap FEES", month)
+            monthly[key] = monthly.get(key, 0) + (usd or 0)
+    rows = [[n, m, round(v, 2)] for (n, m), v in sorted(monthly.items())]
+    write_csv("defillama_exchange_wallet_monthly.csv", rows,
+              ["protocol_metric", "month", "usd"])
+
+
 # ------------------------------------------------------- Chrome Web Store
 CHROME_EXTENSIONS = {
     "MetaMask": "nkbihfbeogaeaoehlefnkodbefgpgknn",
@@ -201,6 +247,7 @@ def fetch_coingecko():
 if __name__ == "__main__":
     print(f"fetch started {dt.datetime.now(dt.timezone.utc).isoformat()}")
     fetch_defillama()
+    fetch_exchange_wallet_volumes()
     fetch_chrome_store()
     fetch_google_play()
     fetch_coingecko()
