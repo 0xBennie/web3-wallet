@@ -1,0 +1,11 @@
+package,downloads_last_month,downloads_last_week,period_month
+@metamask/sdk,2656597,665759,2026-07-03..2026-08-01
+@metamask/detect-provider,135051,31562,2026-07-03..2026-08-01
+@walletconnect/ethereum-provider,4787001,1160130,2026-07-03..2026-08-01
+@walletconnect/web3-provider,64984,22107,2026-07-03..2026-08-01
+@trustwallet/wallet-core,18300,4598,2026-07-03..2026-08-01
+@phantom/wallet-sdk,8393,1219,2026-07-03..2026-08-01
+@coinbase/wallet-sdk,8338088,1996707,2026-07-03..2026-08-01
+@rainbow-me/rainbowkit,583161,143424,2026-07-03..2026-08-01
+@solana/wallet-adapter-phantom,992725,227392,2026-07-03..2026-08-01
+@keplr-wallet/types,268434,58351,2026-07-03..2026-08-01

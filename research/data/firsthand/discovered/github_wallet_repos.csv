@@ -1,0 +1,11 @@
+wallet,repo,stars,forks,open_issues,created_at,pushed_at,language,note
+MetaMask (extension),MetaMask/metamask-extension,13191,5566,2810,2015-09-06,2026-08-02,TypeScript,
+MetaMask (mobile),MetaMask/metamask-mobile,3006,1628,1881,2018-07-18,2026-08-02,TypeScript,
+Rainbow,rainbow-me/rainbow,4378,753,19,2019-03-20,2026-07-31,TypeScript,
+Trust Wallet (core lib),trustwallet/wallet-core,3549,1963,163,2019-02-14,2026-07-31,C++,app itself closed-source
+Rabby,RabbyHub/Rabby,1868,587,141,2021-04-09,2026-08-01,TypeScript,
+Coinbase Wallet (SDK),coinbase/coinbase-wallet-sdk,1758,756,89,2019-05-01,2026-04-30,TypeScript,app closed-source
+Backpack,coral-xyz/backpack,1650,947,532,2022-02-24,2024-08-12,TypeScript,public repo dormant since 2024-08
+Keplr,chainapsis/keplr-chain-registry,397,713,9,2022-11-25,2026-07-30,TypeScript,main keplr-wallet repo no longer publicly listed as of 2026-08; registry repo used as proxy
+Phantom,(none),,,,,,,closed-source; no public app repo
+Solflare,solflare-wallet/solflare-sdk,10,7,11,2021-12-22,2026-07-14,TypeScript,app closed-source; only small SDK repos public

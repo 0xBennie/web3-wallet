@@ -128,10 +128,10 @@ hbar("4_wallet_new_business_30d.png", "钱包新业务线近 30 天费用（永�
 
 # ------------------------------------------------ monthly grouped bars
 monthly = list(csv.DictReader(open(os.path.join(DATA, "defillama_wallet_fees_monthly.csv"))))
-months = sorted({r["month"] for r in monthly if "2025-07" <= r["month"] <= "2026-07"})
+months = sorted({r["month"] for r in monthly if "2025-08" <= r["month"] <= "2026-07"})
 pm = {(r["protocol"], r["month"]): float(r["fees_usd"]) for r in monthly}
 ph = [pm.get(("Phantom Wallet", m), 0) for m in months]
-mm = [pm.get(("MetaMask", m), 0) for m in months]
+mm = [pm.get(("MetaMask Wallet", m), 0) for m in months]
 
 fig, ax = plt.subplots(figsize=(11, 5), dpi=200)
 x = range(len(months))
@@ -153,9 +153,10 @@ for bars, vals in [(b1, ph), (b2, mm)]:
     ax.text(bars[i].get_x() + bars[i].get_width() / 2, vals[i] * 1.02,
             fmt_usd(vals[i]), ha="center", color=INK_2, fontsize=9)
 leg = ax.legend(frameon=False, loc="upper right", fontsize=10, labelcolor=INK_2)
-fig.text(0.02, 0.97, "Phantom vs MetaMask 月度链上手续费（近 12 个月）",
+fig.text(0.02, 0.97, "Phantom vs MetaMask 月度链上手续费（近 12 个完整月）",
          color=INK, fontsize=14, fontweight="bold", va="top")
-fig.text(0.02, 0.905, STAMP, color=MUTED, fontsize=10, va="top")
+fig.text(0.02, 0.905, STAMP + " · 钱包主业务口径（不含 Perps/mUSD/预测市场）",
+         color=MUTED, fontsize=10, va="top")
 fig.subplots_adjust(top=0.82, bottom=0.09, left=0.07, right=0.97)
 fig.savefig(os.path.join(OUT, "5_phantom_vs_metamask_monthly.png"))
 plt.close(fig)

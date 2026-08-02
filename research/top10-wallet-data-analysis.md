@@ -64,7 +64,7 @@
 | 9 | SafePal | 独立（硬件+软件） | 总用户 2500 万+（MAU 未披露） |
 | 10 | TokenPocket | 独立（亚洲市场） | 总用户 2500 万+（MAU 未披露） |
 
-**候补/观察名单**（体量小但分析价值高）：Rabby（440 万安装、粘性最高）、Exodus（150 万 MAU、美股上市）、Zerion（200 万 MAU）、Rainbow、Safe（机构多签，留存 70%）、Backpack、imToken（150+ 国家，未披露用户数）。
+**候补/观察名单**（体量小但分析价值高）：Rabby（420 万安装、粘性最高）、Exodus（150 万 MAU、美股上市）、Zerion（200 万 MAU）、Rainbow、Safe（机构多签，留存 70%）、Backpack、imToken（150+ 国家，未披露用户数）。
 
 ---
 
@@ -77,7 +77,7 @@
 - **弱项**：变现效率低（ARPU 远低于 MetaMask/Coinbase Wallet）；与 Binance Web3 Wallet 左右手互搏。
 
 ### 2. MetaMask —— 变现效率与生态位标杆
-- **数据**：MAU 3000 万+（4 个月 +55%）；下载 1.43 亿；DAU ~100 万；ARPU ~$10.8/年；累计收入 $1.99–3.25 亿；月留存 ~65%。
+- **数据**：MAU 3000 万+（4 个月 +55%）；下载 1.43 亿；DAU ~100 万；ARPU ~$10.8/年；累计收入 $1.93–1.99 亿（DefiLlama 实测/CoinLaw）；月留存 ~65%。
 - **模式**：swap 抽成 0.875% + 质押抽成 10%；2025.10 上线 40x 永续；发行 mUSD 稳定币 + MetaMask Card；评估 IPO。
 - **强项**：EVM 生态默认入口（"Connect Wallet"事实标准）；变现验证最充分。
 - **弱项**：移动端弱于 Trust/Phantom；DAU/MAU 粘性（~0.03）远低于 Rabby（0.41）；非 EVM 链起步晚（2025.12 才原生支持 BTC）。
@@ -137,7 +137,7 @@
 | 钱包 | MAU | DAU | 总用户/下载 | ARPU($/年) | 月留存 | DAU/MAU | 2025 收入 | 支持链 |
 |---|---|---|---|---|---|---|---|---|
 | Trust Wallet | 60M | 3.8M | 200M+ 下载 | 低 | – | ~0.06 | 未披露 | 70+ |
-| MetaMask | 30M+ | 1M | 143M 下载 | 10.8 | 65% | ~0.03 | 累计 $199–325M | EVM+BTC/SOL |
+| MetaMask | 30M+ | 1M | 143M 下载 | 10.8 | 65% | ~0.03 | 累计 $193–199M | EVM+BTC/SOL |
 | Phantom | 17–20M | – | – | 4.8 | – | – | $79.1M | SOL+EVM+BTC |
 | Binance W3W | 17M(年) | – | 母体 300M 注册 | – | – | – | 未披露 | 多链 |
 | OKX Wallet | 5–15M | – | 50M+ 下载 | 4.5 | – | – | 未披露 | 100+ |
@@ -160,7 +160,7 @@
 1. **Coinbase Wallet MAU**：CoinLaw 3.2M vs ratex 70M。70M 大概率把 Coinbase 主 App（120M 月活用户体系）算了进去。建议采用 3.2M，并把 70M 标记为异常值。
 2. **Trust Wallet MAU**：官方系 60M vs ratex 115M。差异可能是"月交互地址"与"月活设备"之别。建议区间处理 [60M, 115M]。
 3. **OKX Wallet MAU**：CoinLaw 5M vs ratex 15M。同上，建议区间 [5M, 15M]。
-4. **MetaMask 收入**：$198.64M（CoinLaw"累计收入"）vs $325M（DefiLlama swap 累计费用）。前者可能是净收入/部分时段，后者是全周期总费用。引用时注明口径。
+4. **MetaMask 收入**：DefiLlama API 实测累计 $192.9M（2026-08）与 CoinLaw $198.64M 基本一致、相互印证；二手站流传的 $325M"DefiLlama 口径"与实际 API 值矛盾（累计费用不可能随时间缩水），且数值与 Phantom 2025 年协议总收入 $325.89M 高度雷同，疑为张冠李戴，**不应引用**。
 5. **Phantom 收入**：$79.1M（净收入）vs $325.89M（协议总收入，含转给 LP/路由方部分）。
 6. **Binance 的 95.3% 市场份额**：仅指某监控口径下 top12 钱包的**单日交易量**，且 Alpha 交易量受空投激励驱动，含大量刷量，不能与自然交易量直接对比。
 7. **"用户数"三种口径**：累计注册/激活（TON 110M、Bitget 80M）＞累计下载（Trust 200M）＞MAU（真实活跃）。跨钱包对比只能用同口径数据。

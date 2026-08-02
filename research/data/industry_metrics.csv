@@ -21,12 +21,12 @@ retail_stablecoin_txn_growth_2025,10,x multiple,2025,global,The Paypers,
 c2m_stablecoin_payments_from_exchange_accounts,66.7,percent,2025,global,BCG white paper,exchange-linked accounts vs self-hosted wallets
 metamask_swap_fee,0.875,percent,2025,MetaMask,CoinLaw,
 metamask_cumulative_revenue_low,198640000,USD,through 2026,MetaMask,CoinLaw,net/company basis
-metamask_cumulative_swap_fees_high,325000000,USD,through 2025,MetaMask,DefiLlama,gross swap fees
+metamask_cumulative_fees_secondhand_claim,325000000,USD,through 2025,MetaMask,secondhand claim (attributed to DefiLlama),DISPUTED: live DefiLlama API all-time is $192.9M (2026-08); cumulative totals cannot shrink; figure likely confused with Phantom 2025 gross revenue $325.89M
 phantom_revenue_2025_net,79100000,USD,2025,Phantom,CoinLaw,
 phantom_gross_protocol_revenue_2025,325890000,USD,2025,Phantom,CoinLaw,gross basis incl. routed value
-phantom_jan2025_swap_volume,5700000000,USD,Jan 2025,Phantom,search summaries,
+phantom_jan2025_swap_volume,5700000000,USD,Jan 2025,Phantom,search summaries,DISPUTED: implies ~2% fee vs documented 0.85% (first-hand Jan-2025 fees $115.0M); volume likely understated or different scope
 phantom_share_of_solana_transfer_volume_peak,20,percent,late 2024 weeks,Phantom,Dune-derived,typically >10%
-binance_alpha_2025_volume,1000000000000,USD,2025,Binance Web3 Wallet,PR Newswire/Odaily,incentive-driven volume; self-reported
+binance_alpha_2025_volume,1000000000000,USD,2025,Binance Web3 Wallet,PR Newswire/Odaily,self-reported; DISPUTED: DefiLlama on-chain 2025 volume for binance-wallet is ~$83.75B (12x gap even allowing for incentive-driven volume)
 binance_wallet_daily_volume_peak,5000000000,USD,2025-05-19,Binance Web3 Wallet,Cryptonomist,95.3% share of top-12 wallet monitor
-rabby_q3_2025_fees,2320000,USD,Q3 2025,Rabby,CoinLaw,
+rabby_q3_2025_fees,2320000,USD,Q3 2025,Rabby,CoinLaw,DISPUTED: first-hand DefiLlama monthly (Jul+Aug+Sep 2025) sums to $3.92M
 ronin_wallet_weekly_swap_volume_peak,55000000,USD,early 2025,Ronin Wallet,search summaries,

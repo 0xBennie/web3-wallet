@@ -1,0 +1,48 @@
+overview,name,slug,category,total24h,total7d,total30d,totalAllTime
+dexs,Holdstation Swap,holdstation-swap,Dexs,0,1.59,39.59,29364070.59
+dexs,fomo Wallet,fomo-wallet,Trading App,14123993,145849043,473380482,802398141
+dexs,MetaMask Card,metamask-card,Crypto Card Issuer,110051,716207,3149048,66087221
+dexs,Bitget Wallet Card,bitget-wallet-card,Crypto Card Issuer,22548,124466,1126221,42857983
+dexs,Rainbow Predictions,rainbow-predictions,Interface,5.08,8.75,2241.75,2241.75
+dexs,MetaMask Predictions,metamask-predictions,Interface,76161,552917,5463547,5463547
+dexs,SafePal Card,safepal-card,Crypto Card Issuer,11988,69716,627325,11997335
+aggregators,MetaMask Wallet,metamask-wallet,Wallets,6763448,43175772,159087452,10617104885
+aggregators,Bitget Wallet X,bitget-wallet-x,DEX Aggregator,42511120,264016635,1256774714,14332073970
+aggregators,Rainbow Swap,rainbow-swap,DEX Aggregator,1655,44460,114881,37837890
+aggregators,OKX Swap,okx-swap,DEX Aggregator,180246527,1456007273,6394503318,193373694590
+aggregators,Holdstation Wallet Miniapp,holdstation-wallet-miniapp,DEX Aggregator,2571,43346,206067,15092060
+aggregators,Binance Wallet,binance-wallet,Wallets,633882861,5930260351,11307963178,106817365779
+aggregators,Zerion Aggregator,zerion-aggregator,DEX Aggregator,1802,10618,64325,22224537
+fees,HoldStation DeFutures,holdstation-defutures,Derivatives,,,,4856192
+fees,MetaMask Wallet,metamask-wallet,Wallets,61237,413415,1585583,192893068
+fees,Rainbow Wallet,rainbow-wallet,Wallets,1614,9051,30245,8339868
+fees,Zerion Wallet,zerion-wallet,Wallets,0,0,0,3425903
+fees,OKX Swap,okx-swap,DEX Aggregator,0,0,0,10856495
+fees,Phantom Wallet,phantom-wallet,Wallets,138044,1055286,5677506,552416490
+fees,Holdstation Swap,holdstation-swap,Dexs,0,0.02,0.02,172467.02
+fees,Trust Wallet Wallet,trust-wallet-wallet,Wallets,1818,36172,200267,34645654
+fees,Base App,base-app,Wallets,5445,88846,466676,125594246
+fees,Rabby Wallet,rabby-wallet,Wallets,2889,26542,94555,12960289
+fees,Holdstation Wallet Miniapp,holdstation-wallet-miniapp,DEX Aggregator,15.66,262.19,1222.8200000000004,55792.48
+fees,Phantom SOL,phantom-sol,Liquid Staking,754,104189,497149,7737409
+fees,Phantom Perps,phantom-perps,Interface,14352,203641,1018377,23590774
+fees,Okto Wallet Perps,okto-wallet-perps,Interface,0.82,30.990000000000002,259.99,884772.99
+fees,Wallet V,wallet-v,Interface,3.77,3893.77,5793.77,95106.77
+fees,Rabby Perps,rabby-perps,Interface,2357,32771,152734,1487656
+fees,MetaMask USD,metamask-usd,Stablecoin Issuer,1802,13781,65083,1054849
+fees,MetaMask Perps,metamask-perps,Interface,7008,190060,652470,8275371
+fees,Rainbow Perps,rainbow-perps,Interface,250,2308,9192,596883
+fees,fomo Wallet,fomo-wallet,Trading App,156329,1987959,7334357,28001032
+fees,Backpack SOL,backpack-sol,Liquid Staking,0,3571,17603,372984
+fees,Gem Wallet Perps,gem-wallet-perps,Interface,3.59,10.86,310.09000000000003,67657.08999999998
+fees,Splash Wallet Perps,splash-wallet-perps,Interface,62,2735.92,4563.82,158512.82
+fees,Tria Card,tria-card,Crypto Card Issuer,1109,9705,40381,2925282
+fees,Rainbow Predictions,rainbow-predictions,Interface,140,971.37,4125.37,73086.37
+fees,THORWallet,thorwallet,DEX Aggregator,168,3422,13385,139662
+fees,Rainbow Token Launchpad,rainbow-token-launchpad,Launchpad,4.12,152.04999999999998,2097.24,48901.36000000001
+fees,Telegram Wallet,telegram-wallet,Interface,3929,79367,693097,3129884
+fees,Trust Wallet Perps,trust-wallet-perps,Interface,7036,157712,165589,182718
+fees,MetaMask Predictions,metamask-predictions,Interface,3278,21242,236717,239995
+fees,Cwallet Perps,cwallet-perps,Interface,0.69,13.129999999999999,93.33,12672.330000000004
+fees,Blockchain Wallet Perps,blockchain-wallet-perps,Interface,162,5048,69714,119128
+fees,fomo Perps,fomo-perps,Interface,2322,34703,159915,320008

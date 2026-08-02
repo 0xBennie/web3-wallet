@@ -2,14 +2,14 @@
 
 > 采集时间：2026-08-02 15:26 UTC
 > 采集脚本：`research/scripts/fetch_wallet_data.py`（无需任何 API key，可随时重跑刷新）
-> 数据文件：`research/data/firsthand/` 下 5 个 CSV
+> 数据文件：`research/data/firsthand/` 下 8 个 CSV
 
 ## 数据源与口径
 
 | 文件 | 来源 | 口径说明 |
 |---|---|---|
 | `defillama_wallet_fees_revenue.csv` | DefiLlama API (`api.llama.fi`) | **链上真实抽成**（用户支付给钱包的费用），24h/7d/30d/1y/累计，按协议 × fees/revenue 两种 metric |
-| `defillama_wallet_fees_monthly.csv` | DefiLlama API | 各钱包**逐月费用时间序列**（2020 至今，232 行），可直接做趋势/回归分析 |
+| `defillama_wallet_fees_monthly.csv` | DefiLlama API | 各钱包**逐月费用时间序列**（2023-01 至今，232 行；MetaMask/Trust 为钱包主业务子口径，不含 Perps 等新业务线），可直接做趋势/回归分析 |
 | `chrome_store_users.csv` | Chrome Web Store 页面 | 各插件钱包**当前活跃安装数**（Google 官方披露口径） |
 | `google_play_installs.csv` | Google Play 页面 | 安卓端**下载量区间**（如 50M+） |
 | `coingecko_wallet_tokens.csv` | CoinGecko API | 钱包相关代币的价格/市值/FDV（市场对钱包生态的定价） |
@@ -18,14 +18,14 @@
 
 ## 核心发现（截至 2026-08-02）
 
-### 1. 链上费用：Phantom 已反超 MetaMask 3.5 倍
+### 1. 链上费用：Phantom 已反超 MetaMask（近 30 天 3.6 倍，累计 2.9 倍）
 
 | 钱包 | 24h 费用 | 30d 费用 | 近 1 年费用 | 累计费用 |
 |---|---|---|---|---|
 | Phantom | $138,044 | $5.68M | $117.4M | **$552.4M** |
-| MetaMask | $54,798 | $1.59M | $41.7M | $192.9M |
+| MetaMask | $61,237 | $1.59M | $41.7M | $192.9M |
 | Base App (Coinbase) | $5,445 | $0.47M | $21.3M | $125.6M |
-| Trust Wallet | $1,744 | $0.20M | $4.4M | $34.6M |
+| Trust Wallet | $1,818 | $0.20M | $4.4M | $34.6M |
 | Rabby | $2,889 | $0.09M | $4.0M | $13.0M |
 | Rainbow | $1,614 | $0.03M | $1.4M | $8.3M |
 | Zerion | $0 | $0 | $0.43M | $3.4M |
@@ -60,16 +60,16 @@ OKB $18.2 亿市值 > BGB $11.4 亿 > TWT $1.59 亿 > SFP $1.08 亿。
 
 ### 6. 费用月度趋势（近 12 个月）
 
-- Phantom：2025-09 峰值 $15.7M/月 → 2026 年中稳定在 $5–6M/月（腰斩后企稳）
-- MetaMask：2025-10 峰值 $7.7M/月 → 2026 年中 $2.5–2.7M/月
+- Phantom：近 12 个月峰值为 2025-08 的 $21.3M/月 → 2026 年中稳定在 $5–6M/月（回落后企稳）
+- MetaMask（钱包主业务口径）：2025-10 峰值 $6.8M/月 → 2026 年中 $1.6–1.9M/月
 - 两者收入均与行情周期强相关，但 Phantom 在每个时点都保持约 2 倍于 MetaMask 的月费用
-- 完整月度序列（2020 至今）在 `defillama_wallet_fees_monthly.csv`，可做行情 β 回归
+- 完整月度序列（2023-01 至今）在 `defillama_wallet_fees_monthly.csv`，可做行情 β 回归；注意末行为当月不完整数据，分析时应剔除
 
 ## 一手 vs 二手数据的差异清单
 
 | 结论 | 二手报告说法 | 一手数据 |
 |---|---|---|
-| 钱包变现第一名 | MetaMask（累计 $199–325M） | **Phantom**（链上累计 $552M，且仍在拉开差距） |
+| 钱包变现第一名 | MetaMask（累计 $199M+） | **Phantom**（链上累计 $552M，且仍在拉开差距） |
 | MetaMask 累计收入 | $325M（DefiLlama 口径被二手站引用） | 当前实际 API 值为 $193M（fees 口径），二手站数字已过期或口径混用 |
 | Coinbase Wallet 存在感 | MAU 320 万，较弱 | Base App 累计费用 $125.6M，链上变现全行业第三 |
 | Telegram Wallet | 只有"激活 1.1 亿"的宣传口径 | 链上月费用 ~$0.69M，真实变现规模很小但在增长 |

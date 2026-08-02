@@ -81,8 +81,11 @@ def fetch_defillama():
     )
 
     # Daily fee time series per wallet -> monthly aggregation.
-    slugs = ["metamask", "phantom-wallet", "trust-wallet", "rabby-wallet",
-             "rainbow-wallet", "zerion-wallet", "base-app", "coinbase-wallet"]
+    # Use CHILD slugs only: parent slugs (metamask, trust-wallet) also include
+    # perps/mUSD/predictions revenue, and base-app/coinbase-wallet are aliases
+    # of the same protocol (summing both double-counts it).
+    slugs = ["metamask-wallet", "phantom-wallet", "trust-wallet-wallet",
+             "rabby-wallet", "rainbow-wallet", "zerion-wallet", "base-app"]
     monthly = {}
     for slug in slugs:
         d = get(f"https://api.llama.fi/summary/fees/{slug}?dataType=dailyFees")

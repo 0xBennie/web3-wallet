@@ -1,0 +1,17 @@
+wallet,trackName,bundleId,sellerName,averageUserRating,userRatingCount,releaseDate,currentVersionReleaseDate,primaryGenre
+Trust Wallet,Trust: Crypto & Bitcoin Wallet,com.sixdays.trust,DApps Platform Software Services Ltd.,4.65562,198224,2017-09-27T04:36:37Z,2026-07-31T19:41:43Z,Finance
+Coinbase Wallet / Base App,Base App: Built to Trade,org.toshi.distribution,Coinbase Wallet,4.55074,161444,2017-09-27T03:16:56Z,2026-07-27T22:56:32Z,Finance
+MetaMask,MetaMask: Trade Crypto,io.metamask.MetaMask,ConsenSys AG,4.73672,75747,2020-09-03T07:00:00Z,2026-07-14T08:43:27Z,Finance
+Phantom,Phantom - Trade Markets,app.phantom,Phantom Technologies Incorporated,4.78275,64149,2022-01-30T08:00:00Z,2026-07-30T14:39:05Z,Finance
+Exodus,Exodus: Crypto & Payments,exodus-movement.exodus,Exodus Movement Inc,4.61081,36604,2019-03-23T00:49:48Z,2026-07-29T15:57:43Z,Finance
+OKX,OKX: Buy Bitcoin BTC & Crypto,com.okex.OKExAppstoreFull,OKX Inc.,4.59094,22510,2018-01-04T08:30:13Z,2026-07-29T02:28:18Z,Finance
+Uniswap Wallet,Uniswap: Crypto & NFT Wallet,com.uniswap.mobile,Universal Navigation Inc.,4.84999,19472,2023-04-12T07:00:00Z,2026-07-24T16:49:42Z,Finance
+SafePal,SafePal: Crypto Wallet BTC NFT,walletapp.safepal.io,SAFEPAL LTD.,4.73606,16659,2021-01-11T08:00:00Z,2026-07-15T06:39:53Z,Finance
+Solflare,Solflare: Solana Crypto Wallet,com.solflare.mobile,SOLRISE RESEARCH LTD,4.8412,9666,2021-11-05T07:00:00Z,2026-07-30T16:57:05Z,Finance
+Bitget Wallet,"Bitget Wallet: Crypto, PayFi",com.bitkeep.os,BitKeep Global Inc.,4.68574,5607,2018-09-26T03:30:24Z,2026-08-02T03:42:10Z,Finance
+Zerion,Zerion: Crypto Wallet & DeFi,com.dpfbop.zerion,Zerion LLC,4.75765,4733,2019-08-27T07:00:00Z,2026-07-15T11:15:16Z,Finance
+Rainbow,Rainbow - Ethereum Wallet,me.rainbow,"Rainbow Studio, Inc",4.64365,4201,2019-06-26T09:27:58Z,2026-07-23T14:26:49Z,Finance
+Rabby,Rabby Wallet - Crypto & EVM,com.debank.rabby-mobile,OPCODE LABS PTE. LTD.,3.44553,1230,2024-02-28T08:00:00Z,2026-07-31T01:51:50Z,Utilities
+imToken,imToken: BTC & ETH Wallet,im.token.app,IMTOKEN PTE. LTD.,4.18957,1150,2018-06-07T01:07:50Z,2026-07-03T03:58:17Z,Finance
+TokenPocket,TokenPocket: Crypto & Bitcoin,com.global.wallet.ios,TP Global Ltd,4.10175,737,2023-01-04T08:00:00Z,2026-07-17T02:38:45Z,Utilities
+Backpack,"Backpack: Buy SOL, BTC, Crypto",app.backpack.mobile,Backpack Technologies Ltd.,4.38767,227,2023-10-26T07:00:00Z,2026-07-30T16:59:06Z,Finance
