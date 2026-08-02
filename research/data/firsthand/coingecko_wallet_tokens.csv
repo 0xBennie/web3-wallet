@@ -1,0 +1,5 @@
+wallet_token,coingecko_id,price_usd,market_cap_usd,fdv_usd,volume_24h_usd,chg_24h_pct,ath_usd,ath_date
+OKX (OKB),okb,86.81,1822935895,1822935895,11944401,0.6,228.74,2025-10-04T16:00:00.000Z
+Bitget (BGB),bitget-token,1.63,1143060959,1487499920,5943112,0.5,8.45,2024-12-27T03:41:24.000Z
+Trust Wallet (TWT),trust-wallet-token,0.381959,159144034,381961051,9147478,1.1,2.72,2022-12-11T15:25:46.000Z
+SafePal (SFP),safepal,0.216694,108347185,108347185,994131,-1.1,4.19,2021-02-09T10:30:34.000Z

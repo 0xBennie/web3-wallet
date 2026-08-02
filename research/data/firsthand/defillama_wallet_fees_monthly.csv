@@ -1,0 +1,233 @@
+protocol,month,fees_usd
+Base App,2024-09,2458118
+Base App,2024-10,21632406
+Base App,2024-11,23836518
+Base App,2024-12,31519100
+Base App,2025-01,29158104
+Base App,2025-02,17881102
+Base App,2025-03,25530098
+Base App,2025-04,21233288
+Base App,2025-05,13645752
+Base App,2025-06,11251982
+Base App,2025-07,10247834
+Base App,2025-08,4927722
+Base App,2025-09,16624678
+Base App,2025-10,9536178
+Base App,2025-11,4
+Base App,2025-12,0
+Base App,2026-01,2794162
+Base App,2026-02,2410978
+Base App,2026-03,1025514
+Base App,2026-04,1253924
+Base App,2026-05,2100240
+Base App,2026-06,1146850
+Base App,2026-07,931562
+Base App,2026-08,42378
+MetaMask,2023-01,5064491
+MetaMask,2023-02,5343229
+MetaMask,2023-03,8419782
+MetaMask,2023-04,4762407
+MetaMask,2023-05,7036179
+MetaMask,2023-06,3614710
+MetaMask,2023-07,3142480
+MetaMask,2023-08,3232943
+MetaMask,2023-09,2270697
+MetaMask,2023-10,4717623
+MetaMask,2023-11,4787678
+MetaMask,2023-12,6461519
+MetaMask,2024-01,6596901
+MetaMask,2024-02,6624116
+MetaMask,2024-03,12246945
+MetaMask,2024-04,6780026
+MetaMask,2024-05,6549177
+MetaMask,2024-06,3647020
+MetaMask,2024-07,3299258
+MetaMask,2024-08,2791771
+MetaMask,2024-09,2423606
+MetaMask,2024-10,3434778
+MetaMask,2024-11,5849293
+MetaMask,2024-12,7302855
+MetaMask,2025-01,5111153
+MetaMask,2025-02,3853430
+MetaMask,2025-03,2540565
+MetaMask,2025-04,2814286
+MetaMask,2025-05,3345686
+MetaMask,2025-06,2924155
+MetaMask,2025-07,3975184
+MetaMask,2025-08,5347319
+MetaMask,2025-09,5026360
+MetaMask,2025-10,7705453
+MetaMask,2025-11,6346594
+MetaMask,2025-12,4207919
+MetaMask,2026-01,5671285
+MetaMask,2026-02,3289493
+MetaMask,2026-03,3100168
+MetaMask,2026-04,2812078
+MetaMask,2026-05,2473708
+MetaMask,2026-06,2744648
+MetaMask,2026-07,2644828
+MetaMask,2026-08,123063
+Phantom Wallet,2024-03,76
+Phantom Wallet,2024-04,1762926
+Phantom Wallet,2024-05,0
+Phantom Wallet,2024-06,17190890
+Phantom Wallet,2024-07,22544340
+Phantom Wallet,2024-08,6040866
+Phantom Wallet,2024-09,6549553
+Phantom Wallet,2024-10,15429075
+Phantom Wallet,2024-11,66963767
+Phantom Wallet,2024-12,52683071
+Phantom Wallet,2025-01,115013143
+Phantom Wallet,2025-02,41347622
+Phantom Wallet,2025-03,17484293
+Phantom Wallet,2025-04,15892085
+Phantom Wallet,2025-05,20896308
+Phantom Wallet,2025-06,14545760
+Phantom Wallet,2025-07,20028770
+Phantom Wallet,2025-08,21275031
+Phantom Wallet,2025-09,15739316
+Phantom Wallet,2025-10,14245597
+Phantom Wallet,2025-11,9461226
+Phantom Wallet,2025-12,7211358
+Phantom Wallet,2026-01,13551018
+Phantom Wallet,2026-02,8233842
+Phantom Wallet,2026-03,5689707
+Phantom Wallet,2026-04,5344408
+Phantom Wallet,2026-05,5982301
+Phantom Wallet,2026-06,5051835
+Phantom Wallet,2026-07,5996649
+Phantom Wallet,2026-08,261657
+Rabby Wallet,2024-10,157416
+Rabby Wallet,2024-11,662089
+Rabby Wallet,2024-12,2091280
+Rabby Wallet,2025-01,1091776
+Rabby Wallet,2025-02,500598
+Rabby Wallet,2025-03,1207398
+Rabby Wallet,2025-04,312059
+Rabby Wallet,2025-05,500170
+Rabby Wallet,2025-06,1475351
+Rabby Wallet,2025-07,960067
+Rabby Wallet,2025-08,1211389
+Rabby Wallet,2025-09,1745203
+Rabby Wallet,2025-10,44558
+Rabby Wallet,2025-11,16
+Rabby Wallet,2025-12,3427
+Rabby Wallet,2026-01,103785
+Rabby Wallet,2026-02,102331
+Rabby Wallet,2026-03,392861
+Rabby Wallet,2026-04,94675
+Rabby Wallet,2026-05,117678
+Rabby Wallet,2026-06,82009
+Rabby Wallet,2026-07,98205
+Rabby Wallet,2026-08,5948
+Rainbow Wallet,2023-01,26454
+Rainbow Wallet,2023-02,172444
+Rainbow Wallet,2023-03,228145
+Rainbow Wallet,2023-04,49157
+Rainbow Wallet,2023-05,194714
+Rainbow Wallet,2023-06,27194
+Rainbow Wallet,2023-07,31894
+Rainbow Wallet,2023-08,32921
+Rainbow Wallet,2023-09,22802
+Rainbow Wallet,2023-10,31207
+Rainbow Wallet,2023-11,47104
+Rainbow Wallet,2023-12,1151370
+Rainbow Wallet,2024-01,205250
+Rainbow Wallet,2024-02,241908
+Rainbow Wallet,2024-03,516058
+Rainbow Wallet,2024-04,464808
+Rainbow Wallet,2024-05,265190
+Rainbow Wallet,2024-06,181951
+Rainbow Wallet,2024-07,135024
+Rainbow Wallet,2024-08,138967
+Rainbow Wallet,2024-09,181710
+Rainbow Wallet,2024-10,217523
+Rainbow Wallet,2024-11,569883
+Rainbow Wallet,2024-12,510265
+Rainbow Wallet,2025-01,317717
+Rainbow Wallet,2025-02,172230
+Rainbow Wallet,2025-03,152752
+Rainbow Wallet,2025-04,111697
+Rainbow Wallet,2025-05,146088
+Rainbow Wallet,2025-06,147410
+Rainbow Wallet,2025-07,224194
+Rainbow Wallet,2025-08,234181
+Rainbow Wallet,2025-09,194824
+Rainbow Wallet,2025-10,313040
+Rainbow Wallet,2025-11,116386
+Rainbow Wallet,2025-12,66982
+Rainbow Wallet,2026-01,112244
+Rainbow Wallet,2026-02,115641
+Rainbow Wallet,2026-03,46159
+Rainbow Wallet,2026-04,47127
+Rainbow Wallet,2026-05,106771
+Rainbow Wallet,2026-06,39934
+Rainbow Wallet,2026-07,28934
+Rainbow Wallet,2026-08,1614
+Trust Wallet,2023-10,10029
+Trust Wallet,2023-11,32137
+Trust Wallet,2023-12,183848
+Trust Wallet,2024-01,1217834
+Trust Wallet,2024-02,845901
+Trust Wallet,2024-03,1335861
+Trust Wallet,2024-04,892365
+Trust Wallet,2024-05,1181154
+Trust Wallet,2024-06,987058
+Trust Wallet,2024-07,893347
+Trust Wallet,2024-08,873490
+Trust Wallet,2024-09,842973
+Trust Wallet,2024-10,977519
+Trust Wallet,2024-11,3623282
+Trust Wallet,2024-12,4456279
+Trust Wallet,2025-01,3121084
+Trust Wallet,2025-02,2777557
+Trust Wallet,2025-03,2489326
+Trust Wallet,2025-04,1243333
+Trust Wallet,2025-05,942515
+Trust Wallet,2025-06,733859
+Trust Wallet,2025-07,586579
+Trust Wallet,2025-08,311046
+Trust Wallet,2025-09,336130
+Trust Wallet,2025-10,264762
+Trust Wallet,2025-11,488785
+Trust Wallet,2025-12,327664
+Trust Wallet,2026-01,900049
+Trust Wallet,2026-02,338853
+Trust Wallet,2026-03,221293
+Trust Wallet,2026-04,470944
+Trust Wallet,2026-05,298899
+Trust Wallet,2026-06,232082
+Trust Wallet,2026-07,376404
+Trust Wallet,2026-08,14057
+Zerion Wallet,2024-01,17937
+Zerion Wallet,2024-02,63965
+Zerion Wallet,2024-03,401028
+Zerion Wallet,2024-04,160956
+Zerion Wallet,2024-05,90072
+Zerion Wallet,2024-06,100143
+Zerion Wallet,2024-07,77584
+Zerion Wallet,2024-08,143083
+Zerion Wallet,2024-09,57017
+Zerion Wallet,2024-10,85843
+Zerion Wallet,2024-11,164918
+Zerion Wallet,2024-12,1012558
+Zerion Wallet,2025-01,244843
+Zerion Wallet,2025-02,118028
+Zerion Wallet,2025-03,63229
+Zerion Wallet,2025-04,33704
+Zerion Wallet,2025-05,43919
+Zerion Wallet,2025-06,46459
+Zerion Wallet,2025-07,64434
+Zerion Wallet,2025-08,112986
+Zerion Wallet,2025-09,75351
+Zerion Wallet,2025-10,91849
+Zerion Wallet,2025-11,47713
+Zerion Wallet,2025-12,30439
+Zerion Wallet,2026-01,33455
+Zerion Wallet,2026-02,24470
+Zerion Wallet,2026-03,13548
+Zerion Wallet,2026-04,5560
+Zerion Wallet,2026-05,812
+Zerion Wallet,2026-06,0
+Zerion Wallet,2026-07,0
+Zerion Wallet,2026-08,0
