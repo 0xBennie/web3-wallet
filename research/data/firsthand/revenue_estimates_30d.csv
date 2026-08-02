@@ -1,0 +1,8 @@
+wallet,kind,vol_30d_usd,rate_low,rate_base,rate_high,rev_30d_low_usd,rev_30d_base_usd,rev_30d_high_usd
+Binance Wallet,estimated,11307963178,0.001,0.0025,0.005,11307963,28269908,56539816
+OKX Swap,estimated,6394503318,0.0005,0.0015,0.0025,3197252,9591755,15986258
+Bitget Wallet X,estimated,1256774714,0.001,0.003,0.005,1256775,3770324,6283874
+Phantom,actual,,,,,,5677506.0,
+MetaMask,actual,,,,,,1585583.0,
+Base App (Coinbase),actual,,,,,,466676.0,
+Trust Wallet,actual,,,,,,200267.0,
