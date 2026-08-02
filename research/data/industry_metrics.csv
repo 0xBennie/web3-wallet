@@ -1,0 +1,32 @@
+metric,value,unit,period,scope,source,caveat
+global_active_crypto_wallet_users,820000000,users,2025,global,CoinLaw,address/account basis not unique humans
+global_crypto_owners,741000000,users,2025,global,CoinLaw/SQ Magazine,+12.4% YoY
+monthly_active_onchain_addresses,220000000,addresses,late 2024,global,industry estimate,addresses not humans
+estimated_real_monthly_active_humans_low,30000000,users,late 2024,global,industry estimate,
+estimated_real_monthly_active_humans_high,60000000,users,late 2024,global,industry estimate,
+dapp_daily_unique_active_wallets,24300000,wallets/day,Q2 2025,global,DappRadar-derived,+247% vs 2024
+global_dapp_unique_mau_low,5000000,users,2025,global,CoinLaw,front-end basis
+global_dapp_unique_mau_high,10000000,users,2025,global,CoinLaw,front-end basis
+share_of_wallets_ever_used_dapp,48,percent,2025,global,PatentPC,
+mobile_wallet_preference,72,percent,2025,global,CoinLaw,
+browser_extension_usage_share,12,percent,2025,global,CoinLaw,
+protocol_visitor_to_wallet_connect_rate,5,percent,2025,global,PatentPC,10 of 200 visitors
+protocol_visitor_to_transaction_rate,0.5,percent,2025,global,PatentPC,1 of 200 visitors
+wallet_users_apac,350000000,users,2025,APAC,CoinLaw,43% of global
+wallet_users_europe,140000000,users,2025,Europe,CoinLaw,+12% YoY
+wallet_users_north_america,134000000,users,2025,North America,CoinLaw,~16% of global
+wallet_users_latam,92000000,users,2025,LatAm,CoinLaw,
+wallet_users_africa,75000000,users,2025,Africa,CoinLaw,fastest growth
+retail_stablecoin_txn_growth_2025,10,x multiple,2025,global,The Paypers,
+c2m_stablecoin_payments_from_exchange_accounts,66.7,percent,2025,global,BCG white paper,exchange-linked accounts vs self-hosted wallets
+metamask_swap_fee,0.875,percent,2025,MetaMask,CoinLaw,
+metamask_cumulative_revenue_low,198640000,USD,through 2026,MetaMask,CoinLaw,net/company basis
+metamask_cumulative_swap_fees_high,325000000,USD,through 2025,MetaMask,DefiLlama,gross swap fees
+phantom_revenue_2025_net,79100000,USD,2025,Phantom,CoinLaw,
+phantom_gross_protocol_revenue_2025,325890000,USD,2025,Phantom,CoinLaw,gross basis incl. routed value
+phantom_jan2025_swap_volume,5700000000,USD,Jan 2025,Phantom,search summaries,
+phantom_share_of_solana_transfer_volume_peak,20,percent,late 2024 weeks,Phantom,Dune-derived,typically >10%
+binance_alpha_2025_volume,1000000000000,USD,2025,Binance Web3 Wallet,PR Newswire/Odaily,incentive-driven volume; self-reported
+binance_wallet_daily_volume_peak,5000000000,USD,2025-05-19,Binance Web3 Wallet,Cryptonomist,95.3% share of top-12 wallet monitor
+rabby_q3_2025_fees,2320000,USD,Q3 2025,Rabby,CoinLaw,
+ronin_wallet_weekly_swap_volume_peak,55000000,USD,early 2025,Ronin Wallet,search summaries,
