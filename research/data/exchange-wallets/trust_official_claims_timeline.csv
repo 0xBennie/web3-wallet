@@ -1,0 +1,22 @@
+date,claim,number,url,source_type
+2018-07-31,Binance acquires Trust Wallet (its first acquisition); price undisclosed; CZ says "excellent value",undisclosed,https://fortune.com/2018/07/31/binance-trust-wallet-acquistion/,secondhand-press
+2022-05,Eowyn Chen appointed CEO (from Binance VP Marketing); user base at start of tenure ~40M,40000000 users,https://iq.wiki/wiki/eowyn-chen,secondhand
+2023-11-08,Binance launches its own Binance Web3 Wallet; TWT drops ~7% on the news,-7% TWT,https://www.coindesk.com/business/2023/11/08/trustwallets-twt-falls-as-parent-company-binance-releases-web3-wallet,secondhand-press
+2024-02,Trust Wallet SWIFT launched: ERC-4337 account-abstraction wallet (Barz); passkeys; gas payable in 200+ tokens; 1-step swap+bridge,200+ gas tokens,https://trustwallet.com/blog/announcements/introducing-trust-wallet-swift,official
+2024-05,Barz smart-contract wallet open-sourced (EIP-2535 diamond proxy; passkey 4337 account),,https://trustwallet.com/blog/developer/introducing-barz-smart-contract-wallet-solution,official
+2025-03,200M+ cumulative downloads; ~60M MAU claimed; ~35% wallet-download market share,200000000 downloads; 60000000 MAU,https://sqmagazine.co.uk/trust-wallet-statistics/,secondhand-aggregator
+2025-11-12,Gas Sponsorship launched: 4 gas-free swaps/day on BNB Chain (no min) / Ethereum (min $50) / Solana (min ~$200) when native balance = 0,4 free swaps/day,https://trustwallet.com/blog/announcements/trust-wallet-now-sponsors-your-gas-fees,official
+2025-12,2025 wrap-up: crossed 220M+ users,220000000 users,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: #1 self-custody wallet with up to 35% market share and 35% MAU share,35% MAU share,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: revenue growth 150% YoY (also cites 105% YoY elsewhere in post); 10X+ vs 2022,150% YoY,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: 110+ chains / 1000+ custom EVM chains / 32M+ assets,110 chains,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: Stablecoin Earn TVL $155M+,155000000 USD TVL,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: Perpetuals launched with up to 200X leverage; FlexGas + EIP-7702 + Gas Sponsorship,200x leverage,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: peak $390M+ weekly swap volume; ~260K+ weekly active traders,390000000 USD/week; 260000 traders/week,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2025-12,2025 wrap-up: blocked $191M+ to known scam addresses; recovered $260K; secured $370K,191000000 USD,https://trustwallet.com/blog/announcements/trust-wallet-in-2025-year-end-wrap-up,official-selfreported
+2026-02-11,Eowyn Chen steps down as CEO after 4-year term; during tenure users 40M->230M; revenue from -$10M/yr loss to ~$90M/yr with high double-digit profit margin (first 8-figure profit in 2024-2025),90000000 USD revenue,https://beincrypto.com/trust-wallet-eowyn-chen-next-moves/,secondhand-press-quoting-CEO
+2026-08,Homepage: "Trusted by 200M people"; 100+ blockchains; 10M+ assets; 600M+ NFTs; 4.7/5 App Store (197.1K); 4.6/5 Google Play (2.5M reviews),200000000 people,https://trustwallet.com/,official-selfreported
+2026-08,Google Play listing installs 50M+ (device installs; not equal to cross-platform cumulative downloads),50000000 installs,https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp,firsthand-storefront
+2026-08,Chrome Web Store extension users ~1M,1000000 users,https://chromewebstore.google.com/detail/trust-wallet/egjidjbpglichdcondbcbdnbeeppgdph,firsthand-storefront
+2026-08,iOS US ratings 198K (4.66 avg) via iTunes API,198224 ratings,https://itunes.apple.com/lookup?bundleId=com.sixdays.trust,firsthand-api
+2026-08,TWT on BSC: ~220K-285K holders (BscScan snapshots 2025-2026); 1B max supply; mcap $158M / FDV $380M,285216 holders,https://bscscan.com/token/0x4b0f1812e5df2a09796481ff14017e6005508003,secondhand-snapshot
