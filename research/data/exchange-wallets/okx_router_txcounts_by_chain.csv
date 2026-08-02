@@ -1,0 +1,10 @@
+chain,router_label,address,transactions_count,token_transfers_count,source,retrieved
+Ethereum,OKX: DEX Router 1,0x2E1DEE213Ba8D7Af0934C49A23187BABeaca8764,1298514,2944647,eth.blockscout.com,2026-08-02
+Ethereum,OKX: DEX Router 2,0x7D0CcAa3Fac1e5A943c5168b6CEd828691b46B36,796424,1560593,eth.blockscout.com,2026-08-02
+Ethereum,OKX: Dex Router 3,0x6088d94C5a40CECd3aE2D4E0710cA687b91c61d0,1037020,1528488,eth.blockscout.com,2026-08-02
+Ethereum,OKX DEX: Aggregation Router,0x3b3ae790Df4F312e745D270119c6052904FB6790,437088,1057422,eth.blockscout.com,2026-08-02
+Base,OKX: DexRouter v1.0.5-tee,0x5E2F47Bd7D4B357FCFd0Bb224Eb665773b1B9801,6864345,11738817,base.blockscout.com,2026-08-02
+Arbitrum,OKX DEX: Aggregation Router,0xf332761c673b59B21fF6dfa8adA44d78c12dEF09,2375480,4567798,arbitrum.blockscout.com,2026-08-02
+Arbitrum,OKX: DexRouter v1.0.5-tee,0x5E2F47Bd7D4B357FCFd0Bb224Eb665773b1B9801,647203,1301249,arbitrum.blockscout.com,2026-08-02
+OP Mainnet,OKX DEX: Aggregation Router,0xf332761c673b59B21fF6dfa8adA44d78c12dEF09,566577,950383,explorer.optimism.io (Blockscout),2026-08-02
+Polygon,OKX: Dex Router,0xA748D6573acA135aF68F2635BE60CB80278bd855,2035102,2834229,polygon.blockscout.com,2026-08-02

@@ -1,0 +1,18 @@
+date_or_month,event_or_value,type,source,note
+2021-12,OKX DEX launch (zero interface fee era begins),policy,secondhand/OKX docs,OKX DEX aggregator historically charged 0% swap interface fee
+2025-03-17,DEX aggregator suspended (Lazarus $100M laundering scrutiny),policy,bleepingcomputer/decrypt,explains 2025-04 volume ~$0 in DefiLlama (NOT an adapter glitch)
+2025-05-05,DEX aggregator relaunched with real-time abuse detection,policy,cryptopolitan/cointrust,volume resumes 2025-05 ($4.69B)
+2025-06-19,Consensys partnership: OKX DEX API embedded in MetaMask Swaps,policy,PRNewswire/Consensys blog,OKX becomes B2B liquidity/API provider to MetaMask
+2025-08-25,Fee & rebate (referral commission) system officially launched; web3.okx.com/dex-fees page first archived same day,policy,Odaily #444901 + Wayback CDX,tiered interface fee 0%/0.1%/0.25%/0.5% by token-group pairing
+2025-10,5871711,defillama_commission_fees_usd,DefiLlama fees/okx-swap,first on-chain CommissionRecord events 2025-10-21
+2025-11,4984784,defillama_commission_fees_usd,DefiLlama fees/okx-swap,last non-zero day 2025-11-25
+2025-12,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,zero since 2025-11-26; adapter tracks referral-commission events on fixed router list; routers migrated to v1.0.5-tee => likely adapter drift not fee abolition
+2026-01,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-02,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-03,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-04,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-05,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-06,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-06-10,Stock-token (TSLAx/NVDAx etc) trading-fee waiver + zero gas via X Layer (limited-time),policy,tradersunion/X Layer official X,current dex-fees page still lists this waiver
+2026-07,0,defillama_commission_fees_usd,DefiLlama fees/okx-swap,
+2026-08-02,Current published schedule: 0% Others<>Others / 0.1% G1<>G1 / 0.25% G1<>G2 mixed / 0.5% grouped<>ungrouped,policy,web3.okx.com/dex-fees,fee charged on target token; token groups updated regularly
