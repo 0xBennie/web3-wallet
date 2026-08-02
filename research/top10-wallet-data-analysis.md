@@ -38,7 +38,7 @@
 | 指标 | 数值 | 说明 |
 |---|---|---|
 | MetaMask swap 费率 | 0.875% | 另有 ETH 质押抽成 10% |
-| MetaMask 累计收入 | $1.99 亿（CoinLaw）／$3.25 亿（DefiLlama swap 口径） | 链上分布：ETH $1.4 亿、BSC $2930 万、Arbitrum $747 万、Polygon $717 万 |
+| MetaMask 累计收入 | $1.93 亿（DefiLlama 实测）～$1.99 亿（CoinLaw） | 链上分布：ETH $1.4 亿、BSC $2930 万、Arbitrum $747 万、Polygon $717 万；流传的 $3.25 亿口径已证伪 |
 | Phantom 2025 年收入 | $7910 万（净）／$3.26 亿（协议总收入口径） | 2025.1 单月 swap 量 $57 亿 |
 | Phantom 占 Solana 转账量 | 峰值 10%～20% | 2024 末–2025 初 |
 | Binance Wallet（Alpha）单日交易量 | 峰值 >$50 亿（2025.5.19，占 top12 钱包 95.3%） | Alpha 2.0 全年交易量 >$1 万亿、17M 用户 |
